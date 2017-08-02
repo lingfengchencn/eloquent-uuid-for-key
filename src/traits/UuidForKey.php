@@ -1,6 +1,6 @@
 <?php
 
-namespace LingfengChenCN\Eloquent\Uuid\Traits;
+namespace LingfengChenCN\Eloquent\Traits;
 
 use Ramsey\Uuid\Uuid;
 
