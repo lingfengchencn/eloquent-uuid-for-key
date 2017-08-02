@@ -1,0 +1,34 @@
+{
+  "name": "lingfengchencn/eloquent-uuid-for-key",
+  "type": "library",
+  "description": "uuid4 key for laravel's eloquent",
+  "keywords": ["Laravel", "Eloquent", "UUID","PHP"],
+  "homepage": "https://github.com/lingfengchencn/eloquent-uuid-for-key",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lingfengchencn",
+      "email": "me@lingfengchencn.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/lingfengchencn/eloquent-uuid-for-key/issues",
+    "source": "https://github.com/lingfengchencn/eloquent-uuid-for-key"
+  },
+  "require": {
+    "laravel/framework": "^5.3",
+    "ramsey/uuid": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "LingfengChenCN\\EloquentUuid\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}
